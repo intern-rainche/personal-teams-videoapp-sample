@@ -37,6 +37,7 @@ var httpServer = http.createServer(staticServe);
 httpServer.listen(port + 10000, "0.0.0.0");
 
 https.createServer(options, staticServe).listen(port, "0.0.0.0");
+// https.createServer(options, staticServe).listen(443)
 
 console.log(
   "HTTP: Listen on port: " + (port + 10000),
