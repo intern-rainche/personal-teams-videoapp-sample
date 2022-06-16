@@ -15,7 +15,7 @@
     "outline": "icon-outline.png"
   },
   "name": {
-    "short": "Personal Teams VideoApp sample",
+    "short": "TestApp",
     "full": "Personal Teams VideoApp sample"
   },
   "description": {
@@ -54,12 +54,12 @@
     "filters": [
       {
         "id": "c2cf81fd-a1c0-4742-b41a-ef969b3ed490",
-        "name": "Frames_half",
+        "name": "Test_half",
         "thumbnail": "half.png"
       },
       {
         "id": "b0c8896c-7be8-4645-ae02-a8bc9b0355e5",
-        "name": "Frames_gray scale",
+        "name": "Test_gray scale",
         "thumbnail": "gray.png"
       }
     ],
