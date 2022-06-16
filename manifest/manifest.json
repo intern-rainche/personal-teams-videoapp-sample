@@ -23,6 +23,10 @@
     "full": "This repo demonstrate a minimal Teams video app, clone this repo and change the video frame processing function"
   },
   "accentColor": "#FFFFFF",
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
   "devicePermissions": [
 		"media"
 	],
@@ -40,7 +44,9 @@
       ]
     }
   },
-  "validDomains": ["microsoft.github.io"],
+  "validDomains": [
+    "intern-rainche.github.io"
+  ],
   "localizationInfo": {
     "defaultLanguageTag": "en-us"
   },
@@ -48,12 +54,12 @@
     "filters": [
       {
         "id": "c2cf81fd-a1c0-4742-b41a-ef969b3ed490",
-        "name": "half",
+        "name": "Frames_half",
         "thumbnail": "half.png"
       },
       {
         "id": "b0c8896c-7be8-4645-ae02-a8bc9b0355e5",
-        "name": "gray scale",
+        "name": "Frames_gray scale",
         "thumbnail": "gray.png"
       }
     ],
